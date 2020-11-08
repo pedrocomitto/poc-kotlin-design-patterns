@@ -41,8 +41,6 @@ class SoccerAthleteFactory : AthleteFactory() {
         return SoccerAthlete(score, matches)
     }
 
-
-
 }
 
 class BasketballAthleteFactory : AthleteFactory() {
