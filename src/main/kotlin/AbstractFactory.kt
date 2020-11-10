@@ -53,7 +53,7 @@ class BasketballAthleteFactory : AthleteFactory() {
 
 }
 
-class AbstractFactoryTest() {
+class AbstractFactoryTest {
 
     @Test
     fun test() {
@@ -65,7 +65,7 @@ class AbstractFactoryTest() {
 
         assertTrue(soccerAthlete is SoccerAthlete)
         assertTrue(basketballAthlete is BasketballAthlete)
-        assertEquals(soccerAthlete.matches, 10)
-        assertEquals(basketballAthlete.matches, 11)
+        assertEquals(10, soccerAthlete.matches)
+        assertEquals(11, basketballAthlete.matches)
     }
 }
